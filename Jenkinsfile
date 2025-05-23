@@ -5,8 +5,8 @@ volumes: [emptyDirVolume(memory: false, mountPath: '/var/lib/docker')]) {
         properties([disableConcurrentBuilds()])
 
         ///////////////////////////////////////////////////////////////////////////////
-        def repo_name = 'warriortrading.orca.service.b'
-        def image_name = "serviceb"
+        def repo_name = 'warriortrading.orca.service.c'
+        def image_name = "servicec"
         def aws_credentialsId = 'chiron_s3_credential'
         def aws_region = 'us-east-2'
 
